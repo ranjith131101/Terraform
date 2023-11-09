@@ -1,0 +1,12 @@
+resource "aws_instance" "apple_server" {
+  ami           = "ami-0447a12f28fddb066"
+  availability_zone = "ap-south-1a"
+  instance_type = "t2.micro"
+  security_groups = ["${aws_security_group.apple_server.name}"]
+  tags = {
+    Name  = "terraform-serverr"
+    Stage = "testing"
+    Location = "INDIA"
+  }
+
+}
