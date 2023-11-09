@@ -1,0 +1,4 @@
+resource "aws_key_pair" "devops" {
+  key_name   = "devops-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCNURjUf74mTlGR06YmZTSBt0BO9ZLDABj2oVLRkQqKLX4Mxkb/eme4CpIna/YUtEEzRLkuAphzvZtCsHJK2vmwgrgAIpK2mC2RiDhwN60LcyfIXR8cJUTmMH+hDooq47EAz9Ma41Dw6MV2b8ENGYep/MwC3Q1ogV/Aw1natd1XasNdePQVa0HVOhHlWBW0GWjEei5iOgx6/zCtpbDI71bCv4COehUGWITgPEAVfeCA+ZShAN/YcqsnLz73lLkkZ3KVEIrHt/D/gNp7ezBYnHiKOS6dDQoN5kAo7HVDBa8JiiDpslym+oPJPSdVbEbXV/fILaU9aPNnYV0sLwHTwyk/QvS5rwXs0Rg9lJcDyko6PuG5gHqE9uyv2HBN4Hw6CKLQBA+UkCypitdPgaNhvqEsoN4B8gZQ9s/j7xqlvzzM6fqEaEPEdBhyiBF5tkvkc28j2Te5x7uovrNjfMQbwV2CMhDGClZzDpV0TU1QBJGKKjlzCdY9c2b0MubHWe0nL00= root@ip-172-31-41-26.ap-south-1.compute.internal"
+}
